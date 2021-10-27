@@ -1,0 +1,31 @@
+2021-10-27 13:43:00.284  INFO 3260 --- [main] c.z.p.PaymentServiceApplicationKt        : Starting PaymentServiceApplicationKt using Java 16.0.1 on LAPTOP-BUCD2FCU with PID 3260 (C:\Users\Zuhaib\microservices\Exam-Backend-Microservice-master\paymentService\target\classes started by Zuhaib in C:\Users\Zuhaib\microservices\Exam-Backend-Microservice-master\paymentService)
+2021-10-27 13:43:00.353  INFO 3260 --- [main] c.z.p.PaymentServiceApplicationKt        : No active profile set, falling back to default profiles: default
+2021-10-27 13:43:03.815  INFO 3260 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=62c26001-5e68-34fe-9ecc-ff88d65ce30e
+2021-10-27 13:43:05.008  INFO 3260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-10-27 13:43:05.063  INFO 3260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-27 13:43:05.064  INFO 3260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-27 13:43:05.465  INFO 3260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-27 13:43:05.465  INFO 3260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4993 ms
+2021-10-27 13:43:08.372  INFO 3260 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-10-27 13:43:10.489  WARN 3260 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-27 13:43:10.766  INFO 3260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 63088 (http) with context path ''
+2021-10-27 13:43:10.769  INFO 3260 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 63088
+2021-10-27 13:43:10.775  INFO 3260 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-27 13:43:11.477  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-27 13:43:11.541  INFO 3260 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-27 13:43:11.959  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-27 13:43:11.960  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-27 13:43:11.979  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-27 13:43:11.983  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-27 13:43:11.984  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-27 13:43:11.984  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-27 13:43:11.986  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-27 13:43:13.282  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-27 13:43:13.292  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-27 13:43:13.296  INFO 3260 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-27 13:43:13.305  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635322393302 with initial instances count: 3
+2021-10-27 13:43:13.306  INFO 3260 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2021-10-27 13:43:13.307  INFO 3260 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635322393307, current=UP, previous=STARTING]
+2021-10-27 13:43:13.310  INFO 3260 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LAPTOP-BUCD2FCU:payment-service:0: registering service...
+2021-10-27 13:43:13.506  INFO 3260 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LAPTOP-BUCD2FCU:payment-service:0 - registration status: 204
+2021-10-27 13:43:13.671  INFO 3260 --- [main] c.z.p.PaymentServiceApplicationKt        : Started PaymentServiceApplicationKt in 15.077 seconds (JVM running for 18.499)
